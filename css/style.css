@@ -1,0 +1,177 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+body{
+
+	border-top:3px solid #005F9E;
+	background-color:#EAEAEA;
+
+
+}
+.cent{
+
+	padding-left:8%;
+	padding-right:8%;
+}
+
+.barra{
+	border-radius: 0px;
+	background-color: #005F9E;
+	font-size: 14px;
+}
+
+.cent2{
+
+	padding-left:6.95%;
+	padding-right:6.95%;
+}
+
+.caption{
+	
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	font-weight: 300;
+	font-size:5em;
+	line-height: 50px;
+	color: #797979;
+
+}
+
+
+.caption2{
+
+	text-align: center;
+	font-size:2.1em;
+	line-height: 20px;
+	font-family: 'Bree Serif', serif;
+	color: #797979;
+
+}
+
+
+.description{
+	font-family: Open Sans;
+
+	text-align: center;
+	font-size: 18px;
+	color: #797979;
+}
+
+.hero {
+	background-color: #F9F9F3;
+}
+
+.subcaption{
+	text-align:center;
+	font-weight:bold;
+	color: #797988;
+}
+
+.img-cldiente{
+	padding-bottom: 10px;
+}
+
+
+.descripcionProductos {
+	text-align: justify;
+	line-height: 20px;
+	font-size: 16px;
+	color: #797979;
+
+}
+ul{
+	text-align: left;
+	font-size: 16px;
+	color: #797979;
+}
+
+
+.fondo{
+	background-image: url(img/back-header.png);
+}
+
+.subbanner{
+	background-image: url(img/pr.jpg);
+}
+
+
+
+
+
+footer{
+	background:#222 url('../img/fback.png') repeat;
+	margin-top:10px;
+	font-size:13px;
+	padding-top:10px;
+	color:#ddd;
+}
+
+
+span{
+	font-weight:bold;
+	font-size:20px;
+	color: #005F9E;
+
+}
+
+
+.contact{
+	font-family: Open Sans;
+	font-weight:300;
+	font-size:20px;
+	color: gray;
+
+
+}
+
+
+
+
+@media (max-width: 767px) {
+	.mapa{
+		width: 25em;
+		height: 35em;
+	}
+
+
+	.caption{
+	
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	font-weight: 300;
+	font-size:3em;
+	line-height: 50px;
+	color: #797979;
+
+}
+
+
+}
+
+
+@media (min-width: 768px) {
+	.mapa{
+		width: 40em;
+		height: 25em;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.mapa{
+		width: 50em;
+		height: 30em;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.mapa{
+		width: : 75em;
+		height: 45em;
+	}
+}
+
+
+

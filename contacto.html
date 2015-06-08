@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TELEMACO</title>
+  <!-- Latest compiled and minified CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/log.png" />
+
+
+  <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="hover/css/style3.css">
+  <link rel="stylesheet" type="text/css" href="hover/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/cli.css" />
+  <meta name="keywords" content="Telemaco, tele maco, camaras ip, redes, telecomunicaciones">
+
+  <script src="js/jquery.js"></script>
+
+<!--
+
+  <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+
+  <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+  <script src="jquery-ui-map-3.0-rc/ui/min/jquery.ui.map.full.min.js" type="text/javascript"></script>
+-->
+
+
+<style>
+body{
+
+  border-top:3px solid #005F9E;
+
+}
+.cent{
+
+  padding-left:8%;
+  padding-right:8%;
+}
+
+.barra{
+  border-radius: 0px;
+  background-color: #005F9E;
+  font-size: 14px;
+}
+
+.cent2{
+
+  padding-left:6.95%;
+  padding-right:6.95%;
+}
+
+.caption{
+
+  text-align: center;
+  font-family: lato; 
+  font-size: 3em;
+  line-height: 50px;
+  color: #797979;
+
+}
+.description{
+  text-align: center;
+  font-size: 18px;
+  color: #797979;
+}
+
+.hero {
+  background-color: #F9F9F3;
+}
+
+.subcaption{
+  text-align:center;
+  font-weight:bold;
+  color: #797988;
+}
+
+.img-cldiente{
+  padding-bottom: 10px;
+}
+
+
+.descripcionProductos {
+  text-align: justify;
+  line-height: 20px;
+  font-size: 16px;
+  color: #797979;
+
+}
+ul{
+  text-align: left;
+  font-size: 16px;
+  color: #797979;
+}
+
+
+.fondo{
+  background-image: url(img/back-header.png);
+}
+
+.subbanner{
+  background-image: url(img/pr.jpg);
+}
+
+
+body{
+  background-color:#EAEAEA;
+}
+
+
+
+@media (max-width: 767px) {
+  .mapa{
+    width: 25em;
+    height: 35em;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .mapa{
+    width: 40em;
+    height: 25em;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .mapa{
+    width: 50em;
+    height: 30em;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .mapa{
+    width: : 75em;
+    height: 45em;
+  }
+}
+
+
+.error{
+  color:red;
+}
+</style>
+</head>
+<body>
+
+
+
+
+  <div class="fondo">
+    <div class="container cent ">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="row" >
+            <center>
+              <div id="ex4" class="col-md-8" style=" padding-top: 10px; padding-bottom: 10px;">
+                <a href="index.html">
+                  <img class="img-responsive" src="img/logo3.png" alt=""/>
+                </a>
+              </div>
+            </center>
+            
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+
+
+  <div id="header" style="width:100%;z-index: 1">
+    <nav class="navbar navbar-inverse barra" role="navigation" style="z-index: 1">
+      <div class="container cent" >
+        <!-- Brand and toggle -get grouped for better mobile display -->
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" >MENÚ</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li id="inicio" class="active"><a href="index.html">Inicio</a></li>
+            <li id="perfil"><a href="perfil.html">Perfil de Telemaco</a></li>
+            <li id="valores"><a href="valores.html">Nuestros Valores</a></li>
+            
+
+
+          <!--  <li id="empresa" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Empresa<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="misionYvision"><a href="/misionYvision/">Misión y Visión</a></li>
+                <li class="objetivos"><a href="/objetivos/">Objetivos</a></li>
+                <li><a href="/politicas/">Políticas</a></li>
+                <li><a href="/estructuraFuncional/">Estructura Funcional</a></li>
+            <!--<li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>-->
+          
+          <li id="productos"><a href="productos.html">Productos</a></li>
+          <li id="certificacion"><a href="certificacion.html">Certificación y Clientes</a></li>
+
+          
+          <li id="contacto"><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container cent">
+
+  <div class="row">
+
+    <div class="col-md-6"><br><br><br>
+
+      <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> <label class="contact" > 042377194</label></span>
+
+      <br><br>
+
+      <span class="glyphicon glyphicon-earphone" aria-hidden="true"> <label class="contact" > 0999121314</label></span>
+
+
+      <br><br><br><br>
+      <span class="glyphicon glyphicon-envelope" aria-hidden="true"> <label class="contact" > telemaco.tech@gmail.com</label></span>
+      <br><br>
+      <span class="glyphicon glyphicon-envelope" aria-hidden="true"> <label class="contact" > johaemez@hotmail.com</label></span>
+
+
+
+      <br><br><br><br>
+
+      <span class="glyphicon glyphicon-map-marker" aria-hidden="true"> <label class="contact" > 6 de Marzo y Huancavilca </label></span>
+      <br><br>
+      <span class="glyphicon glyphicon-globe" aria-hidden="true"> <label class="contact" > GUAYAQUIL - ECUADOR </label></span>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div class="col-md-6"><br>
+
+
+      <div class="form-group">
+        <label for="nombreId">Nombre:*</label> <label id="errorNombre" class="error"></label>
+        <input type="text" class="form-control" name="nombre" id="nombreId" required>
+      </div>
+
+      <div class="form-group">
+        <label for="emailId">Email:*</label><label id="errorEmail" class="error"></label>
+        <input type="email" class="form-control" name="email" id="emailId" required>
+      </div>
+
+
+      <div class="form-group">
+        <label for="asuntoId">Asunto:</label>
+        <input type="text" class="form-control" name="asunto" id="asuntoId">
+      </div>
+
+
+      <div class="form-group">
+        <label for="mensajeId">Mensaje:*</label><label id="errorMensaje" class="error"></label>
+        <textarea class="form-control" name="mensaje" id="mensajeId" cols="30" rows="10" placeholder="Puedes dejarnos aquí tu número de teléfono y nosotros nos contacteremos contigo."></textarea>
+      </div>
+
+      <button type="button" onclick="enviarCorreo()" class="btn btn-default">Enviar</button> <label id="enviarMensaje"></label>
+      
+
+      
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+  <br>
+
+</div>
+
+
+
+
+
+
+<div class="container cent">
+  <div class="row">
+    <div id="1map_canvas" class="1mapa" style="width:100%;">
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<footer>
+  <div class="container cent">
+    <div class="row">
+
+      <div class="col-xs-12">
+
+        <p style="text-align: center">TELEMACO - Copyright © 2015 - Todos los Derechos Reservados</p>
+
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+<script src="bootstrap-3.3.4-dist/js/bootstrap.js"> </script>
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $('.carousel').carousel({
+    interval: 2000
+  });
+
+  $('.carousel').carousel('cycle');
+
+
+  $("#inicio").removeClass("active");
+  $("#contacto").addClass("active");
+});
+
+
+$('#map_canvas').gmap({'center': '-2.1999619,-79.8892079'});
+$('#map_canvas').gmap('option', 'zoom', 17);
+
+
+$('#map_canvas').gmap('addMarker', {'position': '-2.2000463,-79.8889585' }).click(function() {
+  $('#map_canvas').gmap('openInfoWindow', {'content': '<p> TELEMACO </p>'}, this);});
+
+
+
+function enviarCorreo(){
+  var nombre = $("#nombreId").val();
+  var email = $("#emailId").val();
+  var asunto = $("#asuntoId").val();
+  var mensaje = $("#mensajeId").val();
+
+  if (nombre==''){
+
+    $("#errorNombre").html("Complete este campo");
+    $("#nombreId").focus();
+
+  }else if(email==''){
+    $("#errorNombre").html("");
+    $("#errorEmail").html("Complete este campo");
+    $("#emailId").focus();
+  }else if(mensaje==''){
+    $("#errorEmail").html("");
+    $("#errorMensaje").html("Complete este campo");
+    $("#mensajeId").focus();
+
+  }else{
+    $("#errorMensaje").html("");
+    enviarCorreoPorAjax(nombre, email,asunto, mensaje);
+  }
+
+
+}
+
+
+
+function enviarCorreoPorAjax(nombre, email, asunto, mensaje){
+  var parametros = {
+    "nombre" : nombre,
+    "email" : email,
+    "asunto" : asunto,
+    "mensaje" :mensaje
+  };
+  $.ajax({
+    data:  parametros,
+    url:   'enviarcorreo.php',
+    type:  'POST',
+    beforeSend: cargarGif(),
+    success:  function (response) {
+      if (response!="correcto"){
+        $("#enviarMensaje").html("Ha ocurrido algun error...");
+        //alert("ERROR -->" + response);
+
+      }
+      if (response=="correcto"){
+        
+       $("#enviarMensaje").html("Su mensaje ha sido enviado");
+
+       $("#nombreId").val("");
+       $("#emailId").val("");
+       $("#asuntoId").val("");
+       $("#mensajeId").val("");
+
+        //alert("ERROR -->" + response);
+
+      }
+
+    }
+
+  });
+}
+
+
+function cargarGif(){
+ $("#enviarMensaje").html('<img src="img/ajax-loader.gif" alt="">');
+}
+
+
+
+</script>
+
+
+
+</body>
+</html>
