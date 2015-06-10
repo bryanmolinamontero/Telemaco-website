@@ -9,6 +9,6 @@ Necesitan modificar en el archivo enviarcorreo.php los siguientes parametros
   $mail->Username = '************CUENTA QUE ENVIA***********';                
 	$mail->Password = '********PASSWORD DE LA CUENTA**********';                          
 	$mail->addAddress('****** CUENTA DEL DESTINATARIO ********', '****ASUNTO****');
-	
+	  
 
 Ver sitio en : http://pruebastelemaco.hol.es/
